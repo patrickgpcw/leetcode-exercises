@@ -19,9 +19,10 @@ class Solution {
      *  Precisei pesquisar sobre Map.has(): https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Map/has
      * 
      * 
-     * @param {number[]} nums = array de numeros passado.
-     * @param {number} target = valor da soma de 2 elementos dentro de nums. 
-     * @return {number[]} = sempre irá retorna um array de 2 elementos ou vazio.
+     * @param {number[]} nums uma lista de numeros.
+     * @param {number} target valor esperado.
+     *
+     * @return {number[]} uma lista de dois numeros que somado dá o valor esperado, ou uma lista vazia caso não encontrado.
      */
     twoSum(nums, target) {
         const map = new Map();
