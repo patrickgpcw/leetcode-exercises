@@ -11,8 +11,8 @@ class Solution {
      *  - Terceiro passo: Fiz uma verificação dentro do loop, se seu complemento se encontra dentro do hashmap é retornado o elemento e
      *      seu complemento.No entanto, caso seja encontrado o complemento é retornado um array vazio.
      * 
-     *  Big O Espaço: O(n)
-     *  Big O Tempo: O(n)
+     *  Big O Espaço: O(n) - Pior cenário eu ter que amazenar todos menos um de numeros em um hashmap 
+     *  Big O Tempo: O(n) - Pior cenário se os dois últimos elemento da lista for o que eu procuro
      * 
      *  Tempo necessário para solução: 2h
      * 
