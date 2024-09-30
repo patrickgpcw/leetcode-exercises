@@ -28,16 +28,13 @@ class Solution {
         const map = new Map();
 
         for (let i = 0; i < nums.length; ++i) {
-            const num = nums[i];
-            const complement = target - num;
-            const sumIndex = map.get(complement);
+            const complement = target - nums[i];
 
-            const isTarget = map.has(complement);
-            if (isTarget) {
-                return [i, sumIndex];
+            if (map.has(complement)) {
+                return [i, map.get(complement)];
             }
 
-            map.set(num, i);
+            map.set(nums[i], i);
         }
 
         return [];
