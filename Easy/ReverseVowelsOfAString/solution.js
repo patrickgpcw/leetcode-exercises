@@ -5,7 +5,7 @@ class Solution {
     * Solução
     *   - Primeiro passo: criei um set para armazenar todas vogais.
     * 
-    *   - Segundo passo: faço um slipt para separar a string.
+    *   - Segundo passo: faço um split para separar a string.
     * 
     *   - Terceiro passo: faço um loop com 2 ponteiros, um começando pelo index zero e avançando para a direita
     *   e o outro começando pelo ultimo index e avançando para esqueda.
