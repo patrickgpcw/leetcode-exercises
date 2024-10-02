@@ -2,7 +2,7 @@ class Solution {
     /**
      * Solução:
      * 
-     *  Passo 1 - Crio um contador que amazenará a frequência de cada numero
+     *  Passo 1 - Crio um contador que armazenará a frequência de cada numero
      *      em nums. E também crio um array de listas para armazenar numeros conforme
      *      a frequência de aparição deles
      * 
