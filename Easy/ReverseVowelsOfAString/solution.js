@@ -31,19 +31,19 @@ class Solution {
     * @return {string} uma string com os a posição das vogais invertidas
     */
     reverseVowels(s) {
-        let vowels = new Set(['a','e','i','o','u']);
-         s = s.split('');
-        
-        for(let i = 0, j = s.length - 1; i < j; ++i, --j){
-            while(i < j && !vowels.has(s[i].toLowerCase())){
+        let vowels = new Set(['a', 'e', 'i', 'o', 'u']);
+        s = s.split('');
+
+        for (let i = 0, j = s.length - 1; i < j; ++i, --j) {
+            while (i < j && !vowels.has(s[i].toLowerCase())) {
                 ++i
             }
-            while(i < j && !vowels.has(s[j].toLowerCase())){
+            while (i < j && !vowels.has(s[j].toLowerCase())) {
                 --j
             }
             [s[i], s[j]] = [s[j], s[i]];
         }
-        
+
         return s.join('');
     };
 }
