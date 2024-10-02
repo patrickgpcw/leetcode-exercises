@@ -2,7 +2,7 @@
  * Solução:
  *  Primeiro passo - Criar um regex onde verifica se é letra
  * 
- *  Segundo passo - Separar as letras usando
+ *  Segundo passo - Separar as letras usando split
  * 
  *  Terceiro passo - Crio um loop com 2 ponteiros, um no primeiro index(i) e outro no segundo(j).
  *      dentro do loop o ponteiro "i" vai avançando para direita e o ponteiro "j" vai avançando 
