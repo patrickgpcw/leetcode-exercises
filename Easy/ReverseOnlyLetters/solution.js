@@ -29,19 +29,19 @@
  * @param {string} s uma palavra passada
  * @return {string} uma string com a posição das letras invertidas
  */
-var reverseOnlyLetters = function(s) {
+var reverseOnlyLetters = function (s) {
     let isLetter = new RegExp("[A-Za-z]");
     let result = s.split("");
-    
-    for(let i = 0, j = result.length - 1; i < j; ++i,--j){
-        while(i < j && !isLetter.test(result[i])){
+
+    for (let i = 0, j = result.length - 1; i < j; ++i, --j) {
+        while (i < j && !isLetter.test(result[i])) {
             ++i;
         }
-        while(i < j && !isLetter.test(result[j])){
+        while (i < j && !isLetter.test(result[j])) {
             --j;
         }
         [result[i], result[j]] = [result[j], result[i]];
     }
-    
+
     return result.join("");
 };
