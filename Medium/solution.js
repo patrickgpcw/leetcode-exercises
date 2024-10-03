@@ -6,7 +6,7 @@ class Solution {
      *      em nums. E também crio um array de listas para armazenar numeros conforme
      *      a frequência de aparição deles
      * 
-     *  Passo 2 - Faço um loop que pecorre cada numero do array 'nums' e amazeno contador.
+     *  Passo 2 - Faço um loop que percorre cada numero do array 'nums' e amazeno contador.
      *      Também faço uma verificação se esse numero já está presente na contagem, caso
      *      não exista será 0 o seu valor inicial
      * 
