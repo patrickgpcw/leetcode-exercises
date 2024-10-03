@@ -10,7 +10,7 @@ class Solution {
      *      Também faço uma verificação se esse numero já está presente na contagem, caso
      *      não exista será 0 o seu valor inicial
      * 
-     *  Passo 3 - Faço outro loop que pecorrer o contador para cada numero ele adiciona 
+     *  Passo 3 - Faço outro loop que pecorrer o contador para cada numero 
      *      ele adiciona o numero no array da frequencia criado no passo 1
      * 
      *  Passo 5 - Crio um array vazio que irá armazenar os elementos mais frequentes.
