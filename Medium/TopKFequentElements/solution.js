@@ -36,9 +36,9 @@ class Solution {
      *      parsenInt(): https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseInt
      * 
      * 
-     * @param {number[]} nums
-     * @param {number} k
-     * @return {number[]}
+     * @param {number[]} nums lista de numeros
+     * @param {number} k repetição do numero na lista
+     * @return {number[]} elementos mais repetidos na lista
      */
     topKFrequent(nums, k) {
         const count = {};
