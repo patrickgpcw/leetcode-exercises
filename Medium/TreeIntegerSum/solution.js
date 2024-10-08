@@ -46,8 +46,8 @@ class Solution {
      * 
      *      Array sort(): https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/sort
      *     
-     * @param {number[]} nums
-     * @return {number[][]}
+     * @param {number[]} nums lista de inteiros
+     * @return {number[][]} retorna uma lista de uma lista de elementos que suas somas resultam 0
      */
     threeSum(nums) {
         nums = nums.sort((a, b) => a - b);
