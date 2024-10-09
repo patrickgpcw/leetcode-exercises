@@ -25,8 +25,10 @@ class Solution {
      * 
      *  Precisei pesquisar sobre:
      *      - Stack Data Structer: https://www.geeksforgeeks.org/stack-data-structure/
-     * @param {string} s
-     * @return {boolean}
+     * 
+     * 
+     * @param {string} s uma string de parenteses
+     * @return {boolean} retonar true se os parenteses forem validos ou falso caso contrario
      */
     isValid(s) {
         const stack = new Array();
